@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9a3f071145.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="bg-blue-800 p-4 text-white fixed w-full z-50">
+            <div class="max-w-7xl mx-auto flex justify-between items-center">
+                <div class="text-2xl font-bold flex items-center">
+                    <a href="#about" class="bg-white text-blue-800 rounded-full w-12 h-12 flex items-center justify-center mr-3">
+                      <span class="font-bold text-lg">AV</span>
+                    </a>
+                    <span>Arunvijay</span>
+                  </div>
+              
+             
+              <div class="space-x-6 hidden md:flex">
+                <a href="#about" class="hover:text-blue-300 transition duration-300">About</a>
+                <a href="#education" class="hover:text-blue-300 transition duration-300">Education</a>
+                <a href="#experience" class="hover:text-blue-300 transition duration-300">Experience</a>
+                <a href="#skills" class="hover:text-blue-300 transition duration-300">Skills</a>
+                <a href="#projects" class="hover:text-blue-300 transition duration-300">Projects</a>
+                <a href="#contact" class="hover:text-blue-300 transition duration-300">Contact</a>
+              </div>
+          
+          
+              <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+              </div>
+              
+            </div>
+          
+         
+            <div id="mobile-menu" class="hidden">
+              <a href="#about" class="block py-2 text-center">About</a>
+              <a href="#education" class="block py-2 text-center">Education</a>
+              <a href="#experience" class="block py-2 text-center">Experience</a>
+              <a href="#projects" class="block py-2 text-center">Projects</a>
+              <a href="#contact" class="block py-2 text-center">Contact</a>
+            </div>
+          </nav>
+
+        
+
+
+
+    </header>
+
+    <main class="p-16 bg-white">
+          <section id="about" class="bg-gray-50 py-20 mt-8">
+       
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 class="text-3xl font-bold text-blue-800 text-center mb-10">About Me</h2>
+              <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center"">
+                  <img src="https://i.imghippo.com/files/Bqgv61727501975.png" alt="Arunvijay" class="w-56 h-72 shadow-lg border-4 border-blue-800">
+                </div>
+                <div class="md:w-2/3 md:pl-10">
+                  <p class="text-lg text-gray-800 mb-4">
+                    Hello! I'm Arunvijay, a passionate developer with a focus on building responsive and user-friendly applications. I have a background in Electrical And Electronics and have worked on various projects involving web and software development.
+                  </p>
+                  <p class="text-lg text-gray-800 mb-4">
+                    I enjoy learning new technologies and improving my skills, particularly in C#, WPF, and web development using HTML, CSS, and JavaScript. My goal is to create impactful software solutions that enhance user experience.
+                  </p>
+                  <p class="text-lg text-gray-800">
+                    In my free time, I love exploring new programming languages, and collaborating with fellow developers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <section id="education"  class="mb-8 mt-8 py-32 bg-gradient-to-r from-blue-50 to-blue-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              
+              <h2 class="text-4xl font-bold text-center mb-12 text-blue-800">Education</h2>
+        
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          
+             
+                <div class="bg-white rounded-lg shadow-lg p-6 transform transition-all hover:-translate-y-2 hover:shadow-2xl">
+                  <div class="flex items-center space-x-4 mb-4">
+                    <i class="fas fa-university text-blue-500"></i>
+                    <h3 class="text-xl font-semibold">Bachelor of Engineering</h3>
+                  </div>
+                  <p class="text-gray-600">PSNA College of Engineering and Technology</p>
+                  <p class="text-gray-500 text-sm mt-2">2020 - 2024</p>
+                  <p class="text-gray-700 font-semibold mt-2">CGPA:8.42</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 transform transition-all hover:-translate-y-2 hover:shadow-2xl">
+                  <div class="flex items-center space-x-4 mb-4">
+                    <i class="fas fa-school text-blue-500"></i>
+                    <h3 class="text-xl font-semibold">Higher Secondary</h3>
+                  </div>
+                  <p class="text-gray-600">Spic Nagar Higher Secondary School</p>
+                  <p class="text-gray-500 text-sm mt-2">2019 - 2020</p>
+                  <p class="text-gray-700 font-semibold mt-2">Percentage: 79.3%</p>
+                </div>
+          
+            
+                <div class="bg-white rounded-lg shadow-lg p-6 transform transition-all hover:-translate-y-2 hover:shadow-2xl">
+                  <div class="flex items-center space-x-4 mb-4">
+                    <i class="fas fa-school text-blue-500"></i>
+                    <h3 class="text-xl font-semibold">High School</h3>
+                  </div>
+                  <p class="text-gray-600">Spic Nagar Higher Secondary School</p>
+                  <p class="text-gray-500 text-sm mt-2">2017 - 2018</p>
+                  <p class="text-gray-700 font-semibold mt-2">Percentage: 93.4%</p>
+                </div>
+          
+              </div>
+            </div>
+          </section>
+
+          <section id ="experience" class="py-32 bg-gradient-to-r from-blue-50 to-blue-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 class="text-4xl font-bold text-center mb-12 text-blue-800">Experience</h2>
+              
+              <div class="flex flex-wrap justify-center gap-8">
+                
+                <div class="bg-white rounded-lg shadow-xl p-6 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 w-80">
+                  <div class="flex items-center space-x-3 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M20 12h-7.84A9.977 9.977 0 0012 20a9.977 9.977 0 00-6.16-2H4M12 2C6.48 2 2 6.48 2 12c0 1.1.25 2.15.69 3.07m16.62-3.07c0-5.52-4.48-10-10-10" />
+                      </svg>
+                    <h3 class="text-xl font-semibold text-blue-800">Junior Engineer</h3>
+                  </div>
+                  <p class="text-gray-700">Dhvani Research & Development</p>
+                  <p class="text-gray-500 text-sm mt-2">May 2024 - Present</p>
+                </div>
+          
+                <div class="bg-white rounded-lg shadow-xl p-6 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 w-80">
+                  <div class="flex items-center space-x-3 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M20 12h-7.84A9.977 9.977 0 0012 20a9.977 9.977 0 00-6.16-2H4M12 2C6.48 2 2 6.48 2 12c0 1.1.25 2.15.69 3.07m16.62-3.07c0-5.52-4.48-10-10-10" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-blue-800">Intern</h3>
+                  </div>
+                  <p class="text-gray-700">Tessolve Semiconductor</p>
+                  <p class="text-gray-500 text-sm mt-2">Aug 2023 - Jan 2024</p>
+                </div>
+                
+           
+                
+              </div>
+            </div>
+          </section>
+
+          <section id="skills" class="bg-white py-32 px-4 md:px-16">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-blue-800">Skills</h2>
+           
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 justify-center">
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">HTML</h3>
+                    </div>
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">CSS</h3>
+                    </div>
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">JavaScript</h3>
+                    </div>
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">React</h3>
+                    </div>
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">Sqlite</h3>
+                    </div>
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">Python</h3>
+                    </div>
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++ Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">C++</h3>
+                    </div>
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C# Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">C Sharp</h3>
+                    </div>
+                    
+                    <div class="hover-card bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt="WPF Icon" class="h-16 mb-4">
+                        <h3 class="text-lg font-semibold">WPF</h3>
+                    </div>
+                    <!-- Add more skills as needed -->
+                </div>
+            </div>
+          </section>
+
+        <section id="projects" class="bg-gray-50 py-32 px-4 md:px-16">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-blue-800">Projects</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                  <div class="h-72 card">
+                    <div class="card-inner">
+                        <div class="card-front bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                            <img src="https://i.imghippo.com/files/w58m31727589995.jpg"  alt="Project 2" class="h-40 mb-4">
+                            <h3 class="text-lg font-semibold text-center">Solar Water Heater Automation Using Iot</h3>
+                        </div>
+                        <div class="card-back bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                            <p class="text-gray-600">Moniters The Real Time Water Temperature And Controls The Heater.</p>
+                            <h4 class="text-md font-semibold mt-8">Technologies Used:</h4>
+                            <ul class="list-disc mt-2 text-gray-700">
+                              <li>React</li>
+                              <li>Audrino</li>
+                              <li>Firebase</li>
+                            </ul>
+                            <a href="https://65e9b4eea246ac02fb4a00c2--steady-salamander-fd34a3.netlify.app/" target="_blank" class="mt-4 text-blue-500 hover:underline">View Project</a>
+                        </div>
+                    </div>
+                    </div>
+                     <div class="h-72 card">
+                  <div class="card-inner">
+                      <div class="card-front bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                          <img src="https://i.imghippo.com/files/kU5zj1727529548.jpg"  alt="Project 2" class="h-40 mb-4">
+                          <h3 class="text-lg font-semibold text-center">Password Based Circiut Breaker</h3>
+                      </div>
+                      <div class="card-back bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                          <p class="text-gray-600">Protects the Life Of the Working Line Man</p>
+                          <h4 class="text-md font-semibold mt-8">Technologies Used:</h4>
+                          <ul class="list-disc mt-2 text-gray-700">
+                            <li>Audrino</li>
+                          </ul>
+                      </div>
+                  </div>
+                    </div>
+                    <div class="h-72 card">
+                      <div class="card-inner">
+                          <div class="card-front bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <img src="https://i.imghippo.com/files/HBkka1727591808.png"  alt="Project 2" class="h-40 mb-4">
+                              <h3 class="text-lg font-semibold text-center">Enhanced Job Application platform</h3>
+                          </div>
+                          <div class="card-back bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <p class="text-gray-600">Customized Platform For Job Seeker</p>
+                              <h4 class="text-md font-semibold mt-8">Technologies Used:</h4>
+                              <ul class="list-disc mt-2 text-gray-700">
+                                <li>React</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                              </ul>
+
+                              <a href="https://avjobs.ccbp.tech/login" target="_blank" class="mt-4 text-blue-500 hover:underline">View Project</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="h-72 card">
+                      <div class="card-inner">
+                          <div class="card-front bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <img src="https://i.imghippo.com/files/GmCHV1727592341.png"  alt="Project 2" class="h-40 mb-4">
+                              <h3 class="text-lg font-semibold text-center">Customized Search Engine(wikipedia)</h3>
+                          </div>
+                          <div class="card-back bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <p class="text-gray-600">Customized Search Engine page to track the content from Wikipedia Source</p>
+                              <h4 class="text-md font-semibold mt-8">Technologies Used:</h4>
+                              <ul class="list-disc mt-2 text-gray-700">
+                                <li>Java Script</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                              </ul>
+
+                              <a href="https://awikisearch1.ccbp.tech/" target="_blank" class="mt-4 text-blue-500 hover:underline">View Project</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="h-72 card">
+                      <div class="card-inner">
+                          <div class="card-front bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <img src="https://i.imghippo.com/files/Me4qm1727592745.jpg"  alt="Project 2" class="h-40 mb-4">
+                              <h3 class="text-lg font-semibold text-center">Automatic Robotic Fan</h3>
+                          </div>
+                          <div class="card-back bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <p class="text-gray-600">Automatic Gas Detection and Fan Control System</p>
+                              <h4 class="text-md font-semibold mt-8">Technologies Used:</h4>
+                              <ul class="list-disc mt-2 text-gray-700">
+                                <li>Audrino Uno</li>
+    
+                              </ul>
+
+                    
+                          </div>
+                      </div>
+                    </div>
+                    <div class="h-72 card">
+                      <div class="card-inner">
+                          <div class="card-front bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <img src="https://i.imghippo.com/files/6e7wY1727593178.png"  alt="Project 2" class="h-40 mb-4">
+                              <h3 class="text-lg font-semibold text-center">Movies Platform
+                              </h3>
+                          </div>
+                          <div class="card-back bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                              <p class="text-gray-600">Contains the Collections of Varoious Movies</p>
+                              <h4 class="text-md font-semibold mt-8">Technologies Used:</h4>
+                              <ul class="list-disc mt-2 text-gray-700">
+                                <li>React</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                              </ul>
+                              <a href="https://avasfdas.ccbp.tech/" target="_blank" class="mt-4 text-blue-500 hover:underline">View Project</a>
+                          </div>
+                      </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="bg-blue-800 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col items-center">
+            <h3 class="text-2xl font-bold mb-4">Stay Connected</h3>
+            <p class="mb-4">Follow me on my social media for updates and projects!</p>
+            
+            <!-- Social Media Links -->
+            <div class="flex space-x-6">
+              <a href="https://twitter.com" target="_blank" class="hover:text-blue-300 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M23.643 4.937c-.835.37-1.732.62-2.68.736a4.68 4.68 0 002.063-2.573 9.261 9.261 0 01-2.953 1.124A4.56 4.56 0 0016.827 3c-2.535 0-4.586 2.069-4.586 4.615 0 .361.04.715.118 1.054C7.69 8.89 4.066 6.817 1.64 3.974a4.582 4.582 0 00-.62 2.314c0 1.601.814 3.01 2.06 3.84a4.547 4.547 0 01-2.08-.577v.057c0 2.229 1.577 4.086 3.674 4.51a4.65 4.65 0 01-2.077.077c.585 1.832 2.29 3.164 4.304 3.202a9.208 9.208 0 01-5.678 1.962c-.37 0-.733-.021-1.096-.064a12.94 12.94 0 006.98 2.053c8.394 0 13.014-6.942 13.014-12.972 0-.197-.004-.393-.014-.588a9.294 9.294 0 002.291-2.366z" />
+                </svg>
+              </a>
+              <a href="https://github.com/arunvijay15112002" target="_blank" class="hover:text-blue-300 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 .5C5.373.5 0 5.873 0 12.5c0 5.506 3.577 10.125 8.512 11.764.622.114.853-.27.853-.6v-2.4c-3.41.743-4.133-1.653-4.133-1.653-.559-1.426-1.365-1.8-1.365-1.8-1.12-.77.086-.754.086-.754 1.242.086 1.895 1.28 1.895 1.28 1.103 1.894 2.896 1.344 3.605 1.029.112-.798.43-1.344.783-1.654-2.665-.303-5.467-1.332-5.467-5.93 0-1.31.467-2.38 1.237-3.22-.124-.303-.537-1.526.117-3.176 0 0 1.007-.322 3.3 1.229a11.442 11.442 0 013.003-.403c1.015.004 2.033.137 3.003.403 2.293-1.55 3.3-1.229 3.3-1.229.655 1.65.241 2.873.118 3.176.77.84 1.237 1.91 1.237 3.22 0 4.613-2.806 5.625-5.471 5.92.442.38.834 1.137.834 2.294v3.4c0 .33.23.718.855.6C20.423 22.625 24 18.006 24 12.5 24 5.873 18.627.5 12 .5z" />
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/arunvijay15112002" target="_blank" class="hover:text-blue-300 transition duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0H5C2.25 0 0 2.25 0 5v14c0 2.75 2.25 5 5 5h14c2.75 0 5-2.25 5-5V5c0-2.75-2.25-5-5-5zm-11 20H7v-8h2v8zm-1-9.25c-.65 0-1.25-.6-1.25-1.25S7.35 8.5 8 8.5s1.25.6 1.25 1.25S8.65 10.75 8 10.75zm12 9.25h-2v-4.25c0-1.25-.02-2.5-1.5-2.5-1.5 0-1.75 1.25-1.75 2.5V20h-2v-8h2v1.25c.25-.5 1-1.25 2.25-1.25 2.5 0 3 1.25 3 3.75V20z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+      
+          <div class="text-center mt-8">
+            <p class="text-sm">&copy; 2024 Arunvijay. All rights reserved.</p>
+          </div>
+        </div>
+    </footer>
+    
+</body>
+<script>
+ function toggleMenu() {
+    const menu = document.getElementById('mobile-menu');console.log(menu.className);
+    menu.classList.toggle('hidden');
+  }
+
+</script>
+
+</html>
